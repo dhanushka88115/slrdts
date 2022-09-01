@@ -21,3 +21,6 @@ Route::get('/home', function () {
     return view('Home');
 });
 
+Route::post('/savetask', function () {
+    return view('/');
+});
